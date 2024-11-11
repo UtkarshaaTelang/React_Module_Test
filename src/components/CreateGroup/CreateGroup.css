@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+.cgOverlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(47, 47, 47, 0.75);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cgBox {
+    max-width: 590px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 6px;
+    background: #fff;
+    padding: 35px;
+}
+
+.formGroup{
+    display: flex;
+    align-items: center;
+}
+
+.cgBox p{
+    /* font-size: clamp(18px, 5vw, 27px); */
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.cgBox label {
+    /* font-size: clamp(14px, 5vw, 22px); */
+    font-size: 21px;
+    font-family: "Roboto";
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.cgText{
+    width: 350px;
+    font-size: clamp(10px, 4vw, 18px);
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 2px solid #CCCCCC;
+}
+
+.buttonColor{
+    height: clamp(17px, 5vw, 40px);
+    width:  clamp(17px, 5vw, 40px);
+    border-radius: 25px;
+    border: none;
+    margin-right: 10px;
+}
+
+.createGroup{
+    width: fit-content;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #001F8B;
+    color: #fff;
+    margin-left: 73%;
+}
+
+@media screen and (max-width: 490px){
+    .cgBox label{
+        font-size: clamp(14px, 4.2vw, 22px);
+        font-weight: 500;
+        padding-right: 15px;
+    }
+    .cgText{
+        font-size: clamp(10px, 3vw, 18px);
+        font-weight: 400;
+        padding: 8px 15px;
+        border-radius: 50px;
+        border: 2px solid #CCCCCC;
+    }
+
+    .createGroup{
+        margin-left: 66%;
+    }
+}
