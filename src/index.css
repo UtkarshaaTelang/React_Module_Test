@@ -23,19 +23,17 @@ html, body {
   border-radius: 7px;
 }
 
-
-
 .homepage {
   display: flex;
   flex-direction: row;
   height: 100vh;
 }
 
-.homepage.desktop .sidebarContainer {
+.homepage.desktop .lsBox {
   width: 350px;
 }
 
-.homepage.desktop .container {
+.homepage.desktop .box {
   width: calc(100% - 350px);
 }
 
@@ -43,12 +41,12 @@ html, body {
   display: block;
 }
 
-.homepage.mobile .sidebarContainer {
+.homepage.mobile .lsBox {
   width: 100vw;
   height: 100vh;
 }
 
-.homepage.mobile .container {
+.homepage.mobile .box {
   width: 100vw;
   height: 100vh;
 }
