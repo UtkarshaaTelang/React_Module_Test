@@ -31,14 +31,12 @@
 }
 
 .cgBox p{
-    /* font-size: clamp(18px, 5vw, 27px); */
     font-size: 25px;
     font-family: "Roboto";
     font-weight: 500;
 }
 
 .cgBox label {
-    /* font-size: clamp(14px, 5vw, 22px); */
     font-size: 21px;
     font-family: "Roboto";
     font-weight: 500;
@@ -60,6 +58,7 @@
     border-radius: 25px;
     border: none;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .createGroup{
@@ -71,6 +70,7 @@
     background-color: #001F8B;
     color: #fff;
     margin-left: 73%;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 490px){
