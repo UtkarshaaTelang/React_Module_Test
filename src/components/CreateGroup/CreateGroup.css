@@ -46,7 +46,7 @@
 }
 
 .cgText{
-    width: 350px;
+    width: clamp(200px, 70%, 350px);
     font-size: clamp(10px, 4vw, 18px);
     font-weight: 400;
     padding: 8px 15px;
@@ -80,6 +80,7 @@
         padding-right: 15px;
     }
     .cgText{
+        width: clamp(150px, 64%, 250px);
         font-size: clamp(10px, 3vw, 18px);
         font-weight: 400;
         padding: 8px 15px;
