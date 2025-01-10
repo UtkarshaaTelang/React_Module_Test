@@ -12,7 +12,6 @@
 }
 
 .title{
-    /* font-size: clamp(25px, 3vw, 31px); */
     font-size: 30px;
     font-weight: 500;
     font-family: "Roboto";
@@ -43,8 +42,6 @@
 }
 
 .groupIcon{
-    /* width: clamp(60px, 7vw, 70px);;
-    height: clamp(60px, 7vw, 70px);; */
     height: 50px;
     width: 50px;
     position: relative;
@@ -58,7 +55,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* font-size: clamp(18px, 5vw, 24px); */
     font-family: "Roboto";
     font-size: 21px;
     font-weight: 500;
@@ -67,15 +63,12 @@
 }
 
 .groupName{
-    /* font-size: clamp(18px, 5vw, 24px); */
     font-family: "Roboto";
     font-size: 21px;
     font-weight: 500;
 }
 
 .addBtn{
-    /* width: clamp(70px, 7vw, 85px);
-    height: clamp(70px, 7vw, 85px); */
     height: 60px;
     width: 60px;
     border-radius: 50%;
