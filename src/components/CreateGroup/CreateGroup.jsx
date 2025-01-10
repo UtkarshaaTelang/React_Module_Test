@@ -84,7 +84,7 @@ const CreateGroup = ({ setOpenModal, setGroupData }) => {
 
             />
           </div>
-          {error.groupName && <p style={{ color: 'red' }} className="error">{error.groupName}</p>}
+          {error.groupName && <p style={{ color: 'red', fontSize: '15px' }} className="error">{error.groupName}</p>}
           <div className="formGroup">
             <label className="cgColor">Choose Colour</label>
             {color.map((color, index) => (
@@ -101,7 +101,7 @@ const CreateGroup = ({ setOpenModal, setGroupData }) => {
               ></button>
             ))}
           </div>
-          {error.color && <p style={{ color: 'red' }} className="error">{error.color}</p>}
+          {error.color && <p style={{ color: 'red', fontSize: '15px' }} className="error">{error.color}</p>}
           <button type="submit" className="createGroup">Create</button>
         </form>
       </div>
